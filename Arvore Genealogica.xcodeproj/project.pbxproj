@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8CBADF21E8C543500C78F60 /* pListChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CBADF11E8C543500C78F60 /* pListChallenge.m */; };
 		E8DFF2FB1E8C37CD00F191E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DFF2FA1E8C37CD00F191E5 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E8DFF2F71E8C37CD00F191E5 /* Arvore Genealigica */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Arvore Genealigica"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CBADF01E8C543500C78F60 /* pListChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pListChallenge.h; path = ../pListChallenge.h; sourceTree = "<group>"; };
+		E8CBADF11E8C543500C78F60 /* pListChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pListChallenge.m; path = ../pListChallenge.m; sourceTree = "<group>"; };
+		E8DFF2F71E8C37CD00F191E5 /* Arvore Genealogica */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Arvore Genealogica"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DFF2FA1E8C37CD00F191E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +44,7 @@
 		E8DFF2EE1E8C37CD00F191E5 = {
 			isa = PBXGroup;
 			children = (
-				E8DFF2F91E8C37CD00F191E5 /* Arvore Genealigica */,
+				E8DFF2F91E8C37CD00F191E5 /* Arvore Genealogica */,
 				E8DFF2F81E8C37CD00F191E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +52,28 @@
 		E8DFF2F81E8C37CD00F191E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8DFF2F71E8C37CD00F191E5 /* Arvore Genealigica */,
+				E8DFF2F71E8C37CD00F191E5 /* Arvore Genealogica */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E8DFF2F91E8C37CD00F191E5 /* Arvore Genealigica */ = {
+		E8DFF2F91E8C37CD00F191E5 /* Arvore Genealogica */ = {
 			isa = PBXGroup;
 			children = (
+				E8CBADF01E8C543500C78F60 /* pListChallenge.h */,
+				E8CBADF11E8C543500C78F60 /* pListChallenge.m */,
 				E8DFF2FA1E8C37CD00F191E5 /* main.m */,
 			);
+			name = "Arvore Genealogica";
 			path = "Arvore Genealigica";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E8DFF2F61E8C37CD00F191E5 /* Arvore Genealigica */ = {
+		E8DFF2F61E8C37CD00F191E5 /* Arvore Genealogica */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8DFF2FE1E8C37CD00F191E5 /* Build configuration list for PBXNativeTarget "Arvore Genealigica" */;
+			buildConfigurationList = E8DFF2FE1E8C37CD00F191E5 /* Build configuration list for PBXNativeTarget "Arvore Genealogica" */;
 			buildPhases = (
 				E8DFF2F31E8C37CD00F191E5 /* Sources */,
 				E8DFF2F41E8C37CD00F191E5 /* Frameworks */,
@@ -77,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = "Arvore Genealigica";
+			name = "Arvore Genealogica";
 			productName = "Arvore Genealigica";
-			productReference = E8DFF2F71E8C37CD00F191E5 /* Arvore Genealigica */;
+			productReference = E8DFF2F71E8C37CD00F191E5 /* Arvore Genealogica */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E8DFF2F21E8C37CD00F191E5 /* Build configuration list for PBXProject "Arvore Genealigica" */;
+			buildConfigurationList = E8DFF2F21E8C37CD00F191E5 /* Build configuration list for PBXProject "Arvore Genealogica" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E8DFF2F61E8C37CD00F191E5 /* Arvore Genealigica */,
+				E8DFF2F61E8C37CD00F191E5 /* Arvore Genealogica */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8CBADF21E8C543500C78F60 /* pListChallenge.m in Sources */,
 				E8DFF2FB1E8C37CD00F191E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +242,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E8DFF2F21E8C37CD00F191E5 /* Build configuration list for PBXProject "Arvore Genealigica" */ = {
+		E8DFF2F21E8C37CD00F191E5 /* Build configuration list for PBXProject "Arvore Genealogica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8DFF2FC1E8C37CD00F191E5 /* Debug */,
@@ -244,13 +251,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8DFF2FE1E8C37CD00F191E5 /* Build configuration list for PBXNativeTarget "Arvore Genealigica" */ = {
+		E8DFF2FE1E8C37CD00F191E5 /* Build configuration list for PBXNativeTarget "Arvore Genealogica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8DFF2FF1E8C37CD00F191E5 /* Debug */,
 				E8DFF3001E8C37CD00F191E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

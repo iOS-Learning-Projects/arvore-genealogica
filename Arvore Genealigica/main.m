@@ -7,11 +7,29 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "pListChallenge.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+
+        [pListChallenge generateFamilyTree];
+
+        // Caminho para pasta Documents
+        NSString *documentos = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+
+        // PList de Numbers
+        NSMutableArray *numberList = [[NSMutableArray new] init];
+        [numberList addObject:@10];
+        [numberList addObject:@12];
+        [numberList addObject:@99];
+
+        // Nome da pList
+        fileWithPath = [NSString stringWithFormat:@"%@/numberList.plist", documentos];
+
+        // Salvando pList
+        [numberList writeToFile:fileWithPath atomically:YES];
+
+        
     }
     return 0;
 }
